@@ -6,7 +6,8 @@ Este proyecto de Neotecs Wireless Config está actualmente en desarrollo. Utiliz
 
 ## Despliegue en Vercel
 
-Puedes ver la versión en vivo del proyecto desplegada en Vercel [aquí](enlace a tu despliegue en Vercel).
+Puedes ver la versión en vivo del proyecto desplegada en Vercel:
+
 
 **Nota:** Ten en cuenta que debido a su estado de construcción, algunas características pueden no estar completamente implementadas.
 
@@ -14,8 +15,6 @@ Puedes ver la versión en vivo del proyecto desplegada en Vercel [aquí](enlace 
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Reflex](https://img.shields.io/badge/Reflex-Amazing-green)](https://reflexframework.org/)
-
-Puedes copiar y pegar estos códigos en tu README.md u otro lugar donde desees mostrar los badges. ¡Espero que te sirvan!
 
 ## Contribuciones
 
