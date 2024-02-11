@@ -10,7 +10,7 @@ Puedes ver la versión en vivo del proyecto desplegada en Vercel:
 
 
 >[!Note]
->Ten en cuenta que debido a su estado > de construcción, algunas características pueden no estar completamente implementadas.
+>Ten en cuenta que debido a su estado de construcción, algunas características pueden no estar completamente implementadas.
 
 ## Tecnologías Utilizadas
 
