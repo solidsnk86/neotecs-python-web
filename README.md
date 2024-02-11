@@ -9,7 +9,8 @@ Este proyecto de Neotecs Wireless Config está actualmente en desarrollo. Utiliz
 Puedes ver la versión en vivo del proyecto desplegada en Vercel:
 
 
->[!Note] Ten en cuenta que debido a su estado > de construcción, algunas características pueden no estar completamente implementadas.
+>[!Note]
+>Ten en cuenta que debido a su estado > de construcción, algunas características pueden no estar completamente implementadas.
 
 ## Tecnologías Utilizadas
 
