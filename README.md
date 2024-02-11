@@ -12,8 +12,10 @@ Puedes ver la versión en vivo del proyecto desplegada en Vercel [aquí](enlace 
 
 ## Tecnologías Utilizadas
 
-- Reflex
-- Python
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Reflex](https://img.shields.io/badge/Reflex-Amazing-green)](https://reflexframework.org/)
+
+Puedes copiar y pegar estos códigos en tu README.md u otro lugar donde desees mostrar los badges. ¡Espero que te sirvan!
 
 ## Contribuciones
 
