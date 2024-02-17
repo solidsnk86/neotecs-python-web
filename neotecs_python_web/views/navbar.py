@@ -27,6 +27,5 @@ def navbar() -> rx.Component:
         width="100%",
         class_name="px-3",
         ),
-        rx.script(src="/js/countdown.js"),
-        class_name="transparent px-2 nav-switch",
+        class_name="transparent px-2 nav-switch z-50",
     )

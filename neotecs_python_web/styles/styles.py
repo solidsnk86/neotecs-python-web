@@ -1,4 +1,3 @@
-import reflex as rx
 from enum import Enum
 from .fonts import Font
 from .colors import Color, TextColor

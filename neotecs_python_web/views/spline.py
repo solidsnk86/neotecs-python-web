@@ -1,5 +1,4 @@
 import reflex as rx
-from neotecs_python_web.styles.styles import Size
 
 class Spline(rx.Component):
 

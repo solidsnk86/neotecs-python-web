@@ -14,7 +14,7 @@ def header() -> rx.Component:
         ),
         rx.flex(
             rx.image(
-                src="NEOTECS_LOGO_3-removebg.png",
+                src="NEOTECS_LOGO_1-removebg.png",
                 class_name=f"xl:w-[280px] justify-center mx-auto mt-2 w-[16em] h-[16em]"
             ),
             rx.vstack(
@@ -28,13 +28,14 @@ def header() -> rx.Component:
                     rx.text(
                     "¿Cúal necesitas configurar hoy? Tp-Link, Ubiquiti o Mikrotik:"
                 ),
-                style=styles.max_width_style
+                style=styles.max_width_style,
+                class_name="xl:text-start text-center"
                 ),
                 rx.flex(
                 button(
                     "Tp_link",
                     color="is-success",
-                    url="",
+                    url="/tp-link",
                 ),
                  button(
                     "Ubiquiti",

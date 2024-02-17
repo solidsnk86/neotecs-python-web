@@ -23,47 +23,27 @@ def video_section() -> rx.Component:
             ),
             rx.box(
                 rx.text("Tp-Link: CPE210 - CPE220 - CPE510 - CPE605 - CPE610 - CPE710",
-                class_name="bg-zinc-800 p-2 text-sm rounded text-[#92CC41]"
+                class_name="bg-zinc-800 p-2 text-xs rounded text-[#92CC41]"
                 ),
                 rx.text("Ubiquiti: Lite Beam M5 - Grid M5 - M2 - airMAX - NanoStation M5 - M2",
-                class_name="bg-zinc-800 p-2 text-sm rounded text-[#209CEE]"
+                class_name="bg-zinc-800 p-2 text-xs rounded text-[#209CEE]"
                 ),
                 rx.text("Mikrotik: AC5 5Ghz - LHG HP5 5Ghz - STX 2.4Ghz y 5Ghz - OmniTik Series",
-                class_name="bg-zinc-800 p-2 text-sm rounded text-[#E76E55]"
+                class_name="bg-zinc-800 p-2 text-xs rounded text-[#E76E55]"
                 ),
-                 class_name="py-3 my-10"
+                 class_name="py-3"
             )
         ),
         rx.flex(
-            rx.text(
-                "Configuración CPE 510 desde PC",
                 video_url(
                 url=CPE510_PC_URL
-            ),
-            class_name=f"text-center text-[{TextColor.TERTIARY.value}] text-xs xl:text-sm",
-            ),            
-            rx.text(
-                "Configuración CPE510 desde smartphone",
+            ),           
                 video_url(
                 url=CPE510_SMARTPHONE_URL
             ),
-            class_name=f"text-center text-[{TextColor.TERTIARY.value}] text-xs xl:text-sm"
-            ),
-            rx.text(
-                "Configuración antena Ubiquiti",
                 video_url(
                 url=UBIQUITI_URL
             ),
-            class_name=f"text-center text-[{TextColor.TERTIARY.value}] text-xs xl:text-sm"
-            ),
-            flex_direction=["column", "column", "row", "row", "row"]
+            class_name="grid grid-cols-1 gap-[14px] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 items-center justify-center my-8 flex-wrap"
         ),
-        rx.button(
-            "",
-            rx.icon(
-            tag="external_link",
-        ),
-        id="share-button"
-        ),
-        rx.script(src="/js/share.js")
     )

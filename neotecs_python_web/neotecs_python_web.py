@@ -6,13 +6,11 @@ from neotecs_python_web.views.header import header as header
 from neotecs_python_web.views.video_section import video_section as video_section
 from neotecs_python_web.views.footer import footer as footer
 from neotecs_python_web.views.web_info import web_info as web_info
-from .views.spline import spline_3d
+from neotecs_python_web.views.tp_link import tp_link as tp_link
 
 def index() -> rx.Component:
     return rx.box(
-        rx.script(src="/js/snow.js"),
         navbar(),
-        spline_3d(),
         rx.center(
             rx.vstack(
                 header(),
@@ -30,8 +28,28 @@ app = rx.App(
     stylesheets=styles.STYLESHEETS,
     style=styles.BASE_STYLE
 )
+
+meta = [
+    {"name": "theme_color", "content": "#3F234D"},
+    {"char_set": "UTF-8"},
+    {"property": "og:url", "content": "url"},
+    {"property": "og:image", "content": "favicon.png"}
+]
+
 app.add_page(
     index,
     title="NeoTecs",
     description="Configura tu CPE inalámbrico en menos de 10 minutos!",
+    meta=meta
+    )
+
+@rx.page(route="/tp-link")
+def tp_link():
+    return rx.box(
+        tp_link()
+    )
+
+app.add_page(
+    tp_link,
+    title="NeoTecs"
     )
